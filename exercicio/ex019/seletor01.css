@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+
+em HTML id = em CSS é #
+em HTML class = em CSS é .
+*/
+
+body
+{
+font-size: small;
+text-align: center;
+background-color: #C0BC9F;}
+h1
+{background-color: #969279;}
+h2
+{color: #C0BC9F;
+text-align: left;
+text-indent: 12px;
+background-color: #423E1F;
+border-radius: 2%;}
+p
+{text-align: justify;
+padding: 12px;
+}
+div
+{background-color: white;
+border-radius: 3%;
+box-shadow: 3px 3px 3px;}

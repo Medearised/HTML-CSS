@@ -1,0 +1,104 @@
+   @font-face {
+    font-family: cafe;
+    src: url(fontes/Coffee.ttf);
+   }
+   @font-face {
+    font-family: mixone;
+    src: url(fontes/MIXONE.ttf);
+   }
+ 
+   :root {
+    --cor-fundo: #FDF6EC;
+    --cor-fundo-alt: #eae1d7;
+    --cor-marrom-escuro: #21130d;
+    --cor-verde-oliva: #6B705C;
+    --cor-vinho: #7B2D26;
+    --cor-texto: #3E3E3E;
+    --cor-texto-sec: #A1866F;
+  }
+
+  *{
+    padding: 0px;
+    margin: 0px;}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--cor-marrom-escuro);
+  font-size: smaller;
+  max-width: auto;}
+
+header .logo-area {
+  font-family: 'mixone';
+  padding: 6px 25px;
+  transition: transform 0.2s ease;}
+
+header .logo-area:hover
+{transform: scale(1.05);}
+
+header h1 a {text-decoration: none;
+  color: var(--cor-fundo-alt);}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  }
+
+header a {
+  text-decoration: none;
+  color: var(--cor-marrom-escuro);}
+
+.menu-area {width: 450px;
+  background-color: var(--cor-fundo-alt);}
+nav ul li
+  {transition: transform 0.2s ease;}
+nav ul li:hover
+{transform: scale(1.30);}
+
+.menu
+{max-height: auto;
+max-width: auto;
+padding-top: 15px;}
+
+li {font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+li > a:hover 
+{transform: scale(1.05);}
+ 
+
+body {background-color: var(--cor-fundo);}
+
+main {background-image: url(imagens/fondos-de-cafeteria.jpg);
+max-width: auto;
+height: 530px;
+margin: auto;
+display: flex;
+justify-content: center; 
+align-items: center;
+margin-bottom: 10px;}
+
+div#conteudo {
+  color: var(--cor-marrom-escuro);
+  text-align: center;
+  background-color: var(--cor-fundo-alt);
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+  font-family: 'mixone';
+  transition: transform 0.2s ease;}
+
+div#conteudo:hover 
+{transform: scale(1.05);}
+
+div#conteudo a {text-decoration: none;
+  color: var(--cor-marrom-escuro);}
+
+
+
+footer {text-align: center;
+background-color: var(--cor-marrom-escuro);
+color: var(--cor-fundo-alt)
+;}
+

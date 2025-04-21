@@ -1,0 +1,14 @@
+body 
+{   
+    background-image: linear-gradient(to top, #84DCCF, #A6D9F7, #BCCCE0);
+    text-align: justify;
+    padding: 10px;
+    
+}
+h1
+{color: #BF98A0;
+background-color: #312F2F;}
+p
+{color: #312F2F;}
+.container
+{background-color: rgba(255, 255, 255, 0.692);}

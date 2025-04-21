@@ -1,0 +1,80 @@
+nav 
+    {display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+
+}
+:root {
+    --black: #1A1A1A;
+    --lilac: #000000;
+    --rose: #020202;
+    --fog-white: #F6F6F6;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--black);
+    color: var(--fog-white);
+    background-image: url('imagens/background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .logo {
+    width: 500px;
+    height: auto;
+    transition: ease-in-out;
+  }
+
+  h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 1.2rem;
+    color: var(--lilac);
+    margin-top: 1rem;
+  }
+
+  p.tagline {
+    font-size: 1rem;
+    color: var(--rose);
+    margin-bottom: 2rem;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--fog-white);
+    opacity: 0.6;
+    padding-bottom: 2rem;
+  }
+  
